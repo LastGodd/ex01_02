@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MyBatis 사용을 위한 설정 -->
+<!DOCTYPE mapper PUBLIC "//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- Mapper Interface까지의 경로와 Interface명 -->
+<mapper namespace="com.zerock.mapper.TimeMapper">
+	<select id="getTime2" resultType="String">
+		SELECT sysdate FROM dual
+	</select>
+	
+</mapper>
